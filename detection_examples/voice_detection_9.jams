@@ -1,0 +1,162 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "scaper",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 10.0,
+          "value": {
+            "label": "street",
+            "source_file": "/scratch/ci411/spokenweb/scaper_files/background/street/150993__saphe__street-scene-1.wav",
+            "source_time": 17.458096858556623,
+            "event_time": 0,
+            "event_duration": 10.0,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 4.8634109835682064,
+          "duration": 3.312,
+          "value": {
+            "label": "commonvoice_wav",
+            "source_file": "/scratch/ci411/spokenweb/scaper_files/foreground/commonvoice_wav/00455404e3954bdba7f001e7bd7fd1a8ea32a2dfc48acbf051ba160836513ea593673416c595c2f7cb493b928df4f24150205e7ce7fbbed433f8557028f33ae2.wav",
+            "source_time": 0,
+            "event_time": 4.8634109835682064,
+            "event_duration": 3.312,
+            "snr": -15.0,
+            "role": "foreground",
+            "pitch_shift": 1,
+            "time_stretch": 1
+          },
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {
+        "scaper": {
+          "duration": 10.0,
+          "fg_path": "/scratch/ci411/spokenweb/scaper_files/foreground/",
+          "bg_path": "/scratch/ci411/spokenweb/scaper_files/background/",
+          "fg_spec": [
+            [
+              [
+                "const",
+                "commonvoice_wav"
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                10
+              ],
+              [
+                "const",
+                10
+              ],
+              [
+                "const",
+                -15.0
+              ],
+              "foreground",
+              [
+                "const",
+                1
+              ],
+              [
+                "const",
+                1
+              ]
+            ]
+          ],
+          "bg_spec": [
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "uniform",
+                0,
+                60
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10.0
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ]
+          ],
+          "fg_labels": [
+            "commonvoice_wav"
+          ],
+          "bg_labels": [
+            "park",
+            "restaurant",
+            "street"
+          ],
+          "protected_labels": [],
+          "ref_db": -20,
+          "n_channels": 1,
+          "fade_in_len": 0.01,
+          "fade_out_len": 0.01,
+          "n_events": 1,
+          "polyphony_max": 1,
+          "polyphony_gini": 0.3320020120421323,
+          "allow_repeated_label": true,
+          "allow_repeated_source": true,
+          "reverb": null,
+          "scaper_version": "1.0.0"
+        }
+      },
+      "time": 0,
+      "duration": 10.0
+    }
+  ],
+  "file_metadata": {
+    "title": "",
+    "artist": "",
+    "release": "",
+    "duration": 10.0,
+    "identifiers": {},
+    "jams_version": "0.3.3"
+  },
+  "sandbox": {}
+}

@@ -1,0 +1,85 @@
+
+Jupyter server is running on: c39-10
+Job starts at: Thu Mar 28 10:20:36 EDT 2019
+
+Step 1 :
+
+If you are working in NYU campus, please open an iTerm window, run command
+
+ssh -L 6650:localhost:6650 ci411@prince.hpc.nyu.edu
+
+If you are working off campus, you should already have ssh tunneling setup through HPC bastion host, 
+that you can directly login to prince with command
+
+ssh ci411@prince
+
+Please open an iTerm window, run command
+
+ssh -L 6650:localhost:6650 ci411@prince
+
+Step 2:
+
+Keep the iTerm windows in the previouse step open. Now open browser, find the line with
+
+The Jupyter Notebook is running at: c39-10
+
+the URL is something: http://localhost:6650/?token=XXXXXXXX (see your token below)
+
+you should be able to connect to jupyter notebook running remotly on prince compute node with above url
+
+[I 10:20:42.241 NotebookApp] Writing notebook server cookie secret to /state/partition1/job-401219/jupyter/notebook_cookie_secret
+[I 10:20:45.656 NotebookApp] Serving notebooks from local directory: /home/ci411/SpokenWeb
+[I 10:20:45.657 NotebookApp] 0 active kernels 
+[I 10:20:45.657 NotebookApp] The Jupyter Notebook is running at: http://localhost:6650/?token=d81e23f0ed01313dd7fcd1a8fd72cf0beca9f7fddccb2b31
+[I 10:20:45.657 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:20:45.657 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:6650/?token=d81e23f0ed01313dd7fcd1a8fd72cf0beca9f7fddccb2b31
+[I 10:21:03.047 NotebookApp] 302 GET /?token=d81e23f0ed01313dd7fcd1a8fd72cf0beca9f7fddccb2b31 (::1) 0.83ms
+[I 10:21:09.386 NotebookApp] Kernel started: 10080000-4c44-465e-945e-c6221be07782
+[I 10:21:10.662 NotebookApp] Adapting to protocol v5.1 for kernel 10080000-4c44-465e-945e-c6221be07782
+[I 10:21:26.258 NotebookApp] Kernel started: 945bc595-68a4-4eef-be39-4c482fb2b972
+[I 10:21:27.428 NotebookApp] Adapting to protocol v5.1 for kernel 945bc595-68a4-4eef-be39-4c482fb2b972
+[I 10:23:09.894 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:23:26.864 NotebookApp] Saving file at /Sample Generation.ipynb
+[I 10:25:09.516 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:27:09.482 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:29:09.503 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:30:10.273 NotebookApp] Kernel restarted: 10080000-4c44-465e-945e-c6221be07782
+[I 10:30:12.208 NotebookApp] Adapting to protocol v5.1 for kernel 10080000-4c44-465e-945e-c6221be07782
+[I 10:31:09.438 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:33:09.483 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:35:09.644 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:37:09.467 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:37:27.177 NotebookApp] Saving file at /Sample Generation.ipynb
+[I 10:39:09.479 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:41:09.498 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:43:09.491 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:45:09.512 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:47:09.508 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:49:09.537 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:51:10.148 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:55:09.516 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:57:09.543 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 10:59:09.564 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:01:09.559 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:03:09.573 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:05:09.561 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:09:09.571 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:11:09.662 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:13:09.569 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:15:09.597 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:17:09.592 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:19:09.610 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:21:10.355 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:33:09.726 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:35:09.733 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:37:09.721 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:39:10.225 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:41:09.821 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:43:09.882 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:45:09.859 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:45:31.069 NotebookApp] Saving file at /Analysis Testing.ipynb
+[I 11:45:39.498 NotebookApp] Saving file at /Sample Generation.ipynb
