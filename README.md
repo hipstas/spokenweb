@@ -11,9 +11,9 @@ Follow the instructions for your operating system to install Docker:
 Enter the following three commands in the terminal to kill an existing SpokenWeb container (if applicable), then download and run the latest version of this Docker container.
 
 ```
-docker rm -f audio_ml_lab
-docker pull hipstas/audio-ml-lab
-docker run -it --name audio_ml_lab -d -p 8887:8887 -v ~/Desktop/sharedfolder:/sharedfolder hipstas/audio-ml-lab
+docker rm -f spokenweb
+docker pull hipstas/spokenweb
+docker run -it --name spokenweb -d -p 8887:8887 -v ~/Desktop/sharedfolder:/sharedfolder hipstas/spokenweb
 ```
 
 When the commands above finished running, point your browser to `http://localhost:8887` in to launch the Jupyter interface.
