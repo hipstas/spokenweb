@@ -24,6 +24,7 @@ Work done in Binder will not persist across sessions-- if you close and re-open 
 
 ## Getting Started with Jupyter Notebooks
 Here are some resources to get you started using Jupyter Notebooks.
-[Jupyter documentation](https://jupyter-notebook.readthedocs.io/en/stable/)
-[Beginner Guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
-[Notebook Basics](https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb)
+
+* [Jupyter documentation](https://jupyter-notebook.readthedocs.io/en/stable/)
+* [Beginner Guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
+* [Notebook Basics](https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb)
