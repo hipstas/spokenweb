@@ -5,8 +5,9 @@ Follow the instructions for your operating system to install Docker:
 * [Windows](https://docs.docker.com/docker-for-windows/) (For Windows 10 Home Edition, [see here](https://pcda17.github.io/tutorials/Docker_install_Windows))
 * [Mac](https://docs.docker.com/docker-for-mac/)
 
+1. Open a new terminal window (Mac) or command prompt (Windows).
 
-Enter the following three commands in the terminal to kill an existing SpokenWeb container (if applicable), then download and run the latest version of this Docker container.
+2. Enter the following three commands in the terminal to kill an existing SpokenWeb container (if applicable), then download and run the latest version of this Docker container.
 
 ```
 docker rm -f spokenweb
@@ -14,7 +15,7 @@ docker pull hipstas/spokenweb
 docker run -it --name spokenweb -d -p 8887:8887 -v ~/Desktop/sharedfolder:/sharedfolder hipstas/spokenweb
 ```
 
-When the commands above finished running, point your browser to `http://localhost:8887` in to launch the Jupyter interface.
+3. These commands are explained in more detail below. When the commands above finished running, point your browser to `http://localhost:8887` in to launch the Jupyter interface.
 
 ### Running with Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hipstas/spokenweb/master)
 
