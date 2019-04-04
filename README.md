@@ -18,11 +18,16 @@ docker pull hipstas/spokenweb
 docker run -it --name spokenweb -d -p 8887:8887 -v ~/Desktop/sharedfolder:/sharedfolder hipstas/spokenweb
 ```
 ### III. Download the workshop files
-Download all the repository files to your new 'sharedfolder' on your desktop.
+1. Download all the repository files to the new 'sharedfolder' that Docker has created on your desktop.
+
 ![downloading files](arrow.png?raw=true "Title")
+
+2. Unzip the files. 
 
 ### IV. Start Jupyter notebook
 3. When the commands above have finished running, open your browser to URL `http://localhost:8887` to launch the Jupyter interface.
+
+### V. Additional information
 
 ### Running with Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hipstas/spokenweb/master)
 
@@ -30,14 +35,14 @@ If you are unable to run Docker on your machine, you can use [Binder](https://my
 
 Work done in Binder will not persist across sessions-- if you close and re-open a Binder instance of this repository, any changes you made will be lost. You can download a notebook to save your changes by going to File > Download As with the notebook open in Jupyter.
 
-## Getting Started with Jupyter Notebooks
+### Getting Started with Jupyter Notebooks
 Here are some resources to get you started using Jupyter Notebooks.
 
 * [Jupyter Notebook documentation](https://jupyter-notebook.readthedocs.io/en/latest/)
 * [Beginner Guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
 * [Notebook Basics](https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb)
 
-## Docker in more detail
+### Docker in more detail
 All operating systems are different but we want everyone to use the same kind so we will use Docker. Docker is an application that makes it possible to run a virtual copy of the Linux operating system within your primary OS. We will be using Ubuntu, a version of Linux that is often used to run web servers. Ordinarily, you would launch an Ubuntu server and then install the programs you need, one by one; Docker lets us speed up that process by defining our system's initial configuration in a plain text file, known as a Dockerfile. You can view the Dockerfile we are currently using here.
 
 For more details on how Docker works, [see this overview](https://docs.docker.com/engine/docker-overview/).
