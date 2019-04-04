@@ -1,12 +1,11 @@
-# Audio Analysis Workshop
-## Environment setup
+# Audio Analysis Workshop Environment setup
 
-### I. Install Docker 
+## I. Install Docker 
 Follow the instructions for your operating system to install Docker:
 * [Windows](https://docs.docker.com/docker-for-windows/) (For Windows 10 Home Edition, [see here](https://pcda17.github.io/tutorials/Docker_install_Windows))
 * [Mac](https://docs.docker.com/docker-for-mac/)
 
-### II. Start Docker
+## II. Start Docker
 
 1. Open a new terminal window (Mac) or command prompt (Windows).
 
@@ -17,17 +16,17 @@ docker rm -f spokenweb
 docker pull hipstas/spokenweb
 docker run -it --name spokenweb -d -p 8887:8887 -v ~/Desktop/sharedfolder:/sharedfolder hipstas/spokenweb
 ```
-### III. Download the workshop files
+## III. Download the workshop files
 1. Download all the repository files to the new 'sharedfolder' that Docker has created on your desktop by selecting the green "Clone or Download" button at https://github.com/hipstas/spokenweb/
 
 ![downloading files](arrow.png?raw=true "Title")
 
 2. Unzip the files in to the 'sharedfolder' diretory. 
 
-### IV. Start Jupyter notebook
+## IV. Start Jupyter notebook
 When the commands above have finished running, open your browser to URL `http://localhost:8887` to launch the Jupyter interface.
 
-### V. Additional information
+## V. Additional information
 
 ### Running with Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hipstas/spokenweb/master)
 
