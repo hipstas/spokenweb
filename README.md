@@ -18,7 +18,7 @@ docker pull hipstas/spokenweb
 docker run -it --name spokenweb -d -p 8887:8887 -v ~/Desktop/sharedfolder:/sharedfolder hipstas/spokenweb
 ```
 ### III. Download the workshop files
-![downloading files](arrow.jpg?raw=true "Title")
+![downloading files](arrow.png?raw=true "Title")
 
 ### IV. Start Jupyter notebook
 3. When the commands above have finished running, open your browser to URL `http://localhost:8887` to launch the Jupyter interface.
