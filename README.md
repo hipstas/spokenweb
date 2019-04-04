@@ -16,9 +16,7 @@ docker run -it --name spokenweb -d -p 8887:8887 -v ~/Desktop/sharedfolder:/share
 
 When the commands above finished running, point your browser to `http://localhost:8887` in to launch the Jupyter interface.
 
-### Running with Binder
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hipstas/spokenweb/master)
+### Running with Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hipstas/spokenweb/master)
 
 If you are unable to run Docker on your machine, you can use [Binder](https://mybinder.readthedocs.io/en/latest/) to work with these Jupyter notebooks in your browser. Click the button below to launch. It may take several minutes to initialize the server.
 
