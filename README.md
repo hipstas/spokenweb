@@ -1,4 +1,4 @@
-# SpokenWeb 
+# SpokenWeb Workshops
 
 ### Installing and running Docker
 Follow the instructions for your operating system to install Docker:
@@ -22,3 +22,8 @@ If you are unable to run Docker on your machine, you can use [Binder](https://my
 
 Work done in Binder will not persist across sessions-- if you close and re-open a Binder instance of this repository, any changes you made will be lost. You can download a notebook to save your changes by going to File > Download As with the notebook open in Jupyter.
 
+## Getting Started with Jupyter Notebooks
+Here are some resources to get you started using Jupyter Notebooks.
+[Jupyter documentation](https://jupyter-notebook.readthedocs.io/en/stable/)
+[Beginner Guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
+[Notebook Basics](https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb)
