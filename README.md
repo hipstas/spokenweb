@@ -1,4 +1,4 @@
-# SpokenWeb Workshops
+# Audio Analysis Workshop
 
 ### Docker Quick-Start 
 Follow the instructions for your operating system to install Docker:
@@ -7,7 +7,7 @@ Follow the instructions for your operating system to install Docker:
 
 1. Open a new terminal window (Mac) or command prompt (Windows).
 
-2. Enter the following three commands in the terminal to kill an existing SpokenWeb container (if applicable), then download and run the latest version of this Docker container.
+2. Enter the following three commands in the terminal to kill an existing SpokenWeb container (if applicable), then download and run the latest version of this Docker container.[These commands are explained in more detail below. ]
 
 ```
 docker rm -f spokenweb
@@ -15,7 +15,7 @@ docker pull hipstas/spokenweb
 docker run -it --name spokenweb -d -p 8887:8887 -v ~/Desktop/sharedfolder:/sharedfolder hipstas/spokenweb
 ```
 
-3. These commands are explained in more detail below. When the commands above finished running, point your browser to `http://localhost:8887` in to launch the Jupyter interface.
+3. When the commands above have finished running, open your browser to URL `http://localhost:8887` to launch the Jupyter interface.
 
 ### Running with Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hipstas/spokenweb/master)
 
