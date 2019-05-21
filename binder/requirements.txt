@@ -10,3 +10,5 @@ bs4
 lda
 textblob
 nltk
+altair
+vega
