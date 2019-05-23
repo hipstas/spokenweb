@@ -8,28 +8,36 @@ Follow the instructions for your operating system to install Docker:
 ### Troubleshooting installing on Windows 10
 Docker has a known bug with the virtual private network code they are using which “randomly” prevents some peoples’ configurations from doing proper DNS lookups in Windows 10 installs when the Docker DNS settings are set to “automatic”. To potentially resolve this issue, some users report that going into the Docker settings under network and selecting DNS Server - fixed: 8.8.8.8 may make it work. In the Windows 10 version of Docker, right-click on Docker in the taskbar and choose settings – in the dialog that appears; “Network” is an option on the left navigation bar and the option appears there.
 
-## II. Start Docker
+## II. Download the Docker Image
 
 1. Open a new terminal window (Mac) or command prompt (Windows).
 
-2. Enter the following three commands in the terminal to kill an existing SpokenWeb container (if applicable), then download and run the latest version of this Docker container.[These commands are explained in more detail below. ]
+2. Run the following command to download the latest version of the Docker image.
+
+```
+docker pull hipstas/spokenweb
+```
+
+## III. Start Docker
+
+1. Enter the following commands in the terminal to kill an existing SpokenWeb container (if applicable), then run the Docker container. [These commands are explained in more detail below.]
 
 ```
 docker rm -f spokenweb
-docker pull hipstas/spokenweb
 docker run -it --name spokenweb -d -p 8887:8887 -v ~/Desktop/sharedfolder:/sharedfolder hipstas/spokenweb
 ```
-## III. Download the workshop files
+
+## IV. Download the workshop files
 1. Download all the repository files to the new 'sharedfolder' that Docker has created on your desktop by selecting the green "Clone or Download" button at https://github.com/hipstas/spokenweb/
 
 ![downloading files](arrow.png?raw=true "Title")
 
 2. Unzip the files in to the 'sharedfolder' diretory. 
 
-## IV. Start Jupyter notebook
+## V. Start Jupyter notebook
 When the commands above have finished running, open your browser to URL `http://localhost:8887` to launch the Jupyter interface.
 
-## V. Additional information
+## VI. Additional information
 
 ### Running with Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hipstas/spokenweb/master)
 
