@@ -43,7 +43,7 @@ When the commands above have finished running, open your browser to URL `http://
 
 If you are unable to run Docker on your machine, you can use [Binder](https://mybinder.readthedocs.io/en/latest/) to work with these Jupyter notebooks in your browser. Click the button below to launch. It may take several minutes to initialize the server.
 
-Work done in Binder will not persist across sessions-- if you close and re-open a Binder instance of this repository, any changes you made will be lost. You can download a notebook to save your changes by going to File > Download As with the notebook open in Jupyter.
+Work done in Binder will not persist across sessions—if you close and re-open a Binder instance of this repository, any changes you made will be lost. You can download a notebook to save your changes by going to File > Download As with the notebook open in Jupyter.
 
 ### Getting Started with Jupyter Notebooks
 Here are some resources to get you started using Jupyter Notebooks.
