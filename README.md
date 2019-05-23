@@ -20,7 +20,7 @@ docker pull hipstas/spokenweb
 
 ## III. Start Docker
 
-1. Enter the following commands in the terminal to kill an existing SpokenWeb container (if applicable), then run the Docker container. [These commands are explained in more detail below.]
+Enter the following commands in the terminal to kill an existing SpokenWeb container (if applicable), then run the Docker container. [These commands are explained in more detail below.]
 
 ```
 docker rm -f spokenweb
