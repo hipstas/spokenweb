@@ -12,7 +12,7 @@ Docker has a known bug with the virtual private network code they are using whic
 
 1. Open a new terminal window (Mac) or command prompt (Windows).
 
-2. Run the following command to download the latest version of the Docker image.
+2. Run (or copy and paste) the following command to download the latest version of the Docker image. Be sure to hit return! Be warned: this step takes the longest. Depending on your system, it could take up to 15 minutes. 
 
 ```
 docker pull hipstas/spokenweb
