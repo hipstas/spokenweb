@@ -12,7 +12,7 @@ Docker has a known bug with the virtual private network code they are using whic
 
 1. Open a new terminal window (Mac) or command prompt (Windows).
 
-2. Run (or copy and paste) the following command to download the latest version of the Docker image. Be sure to hit return! Be warned: this step takes the longest. Depending on your system, it could take up to 15 minutes. 
+2. Run (or copy and paste) the following command to download the latest version of the Docker image. Be sure to hit 'return'! Be warned: this step takes the longest. Depending on your system, it could take up to 15 minutes. 
 
 ```
 docker pull hipstas/spokenweb
@@ -20,7 +20,7 @@ docker pull hipstas/spokenweb
 
 ## III. Start Docker
 
-Enter the following commands in the terminal to kill an existing SpokenWeb container (if applicable), then run the Docker container. [These commands are explained in more detail below.]
+Enter the following commands in the terminal to kill an existing SpokenWeb container (if applicable), then run the Docker container. You will have to hit 'return' twice. [These commands are explained in more detail below.]
 
 ```
 docker rm -f spokenweb
